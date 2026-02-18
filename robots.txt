@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minieinsteinsacademy.com.au/sitemap.xml
