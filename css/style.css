@@ -285,6 +285,84 @@ footer {
     z-index: 1;
 }
 
+/* ===== FORM NOTE ===== */
+.form-note {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.form-note a {
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+/* ===== PRIVACY PAGE ===== */
+.privacy-page {
+    padding: 3rem 0 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.privacy-page .container {
+    max-width: 750px;
+}
+
+.back-link {
+    display: inline-block;
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.privacy-page h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--text);
+    background: none;
+    -webkit-text-fill-color: var(--text);
+    margin-bottom: 0.5rem;
+}
+
+.last-updated {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.privacy-page h2 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+    margin: 2rem 0 0.75rem;
+}
+
+.privacy-page p {
+    color: var(--text-light);
+    line-height: 1.8;
+    margin-bottom: 0.75rem;
+}
+
+.privacy-page ul {
+    padding-left: 1.5rem;
+    color: var(--text-light);
+    line-height: 2;
+    margin-bottom: 0.75rem;
+}
+
+.privacy-page a {
+    color: var(--blue);
+}
+
+footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 640px) {
     .features {
